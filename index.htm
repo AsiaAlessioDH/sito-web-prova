@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+    	 <meta charset="UFT-8"/>
+    	 <!--dublin core-->
+    	 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--metadati DC-->
+    <meta name="DC.Title" content="Luciano Foti e le sue opere">
+    <meta name="DC.Creator" content="Asia Alessio">
+    <meta name="DC.Subject" content="Raccogliere digitalmente le opere presenti nei depositi, luoghi a volte inaccessibili e il cui stato delle opere è discutibile">
+    <meta name="DC.Description" content="L'obiettivo del sito è quello di rendere disponibile online ciò che custodisce il deposito del Museo Regionale di Messina. Nello specifico ci occuperemo del messinese Luciano Foti mettendo alla luce la sua biografia, bibliografie e le opere d'arte a lui attribuite ">
+    <meta name="DC.Publisher" content="Università di Bologna">
+    <meta name="DC.Date" content="23-11-2022">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Format" content="HTML/CSS/JS">
+         <link rel="DC.Identifier" href="https://github.com/">
+    <meta name="DC.Source" content="Bootstrap">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Relation" content="?">
+         <link rel="DC.Coverage" href="?">
+    <meta name="DC.Rights" content="?">
+
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/style-esame.css"/>
+<link href='https://fonts.googleapis.com/css?family=Chonburi' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+
+	<title>Opere catalogate - Luciano Foti</title>
+
+<link rel="shortcut icon" href="https://gdsit.cdn-immedia.net/2015/05/Trinacria.png">
+    </head>	
+
+<body>
+     <span id="top"></span>
+ 
+<header>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+    	<img src="https://gdsit.cdn-immedia.net/2015/05/Trinacria.png" alt="Bootstrap" width="40" height="30">Museo Regionale di Messina
+    </a>
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Storia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Deposito</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Catalogo
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Lista</a></li>
+            <li><a class="dropdown-item" href="#">Artisti</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Contatti</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Riguardo il progetto</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Cerca</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--Breadcrumbs-->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Catalogo deposito</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Luciano Foti (1674-1779)</li>
+  </ol>
+</nav>
+
+
+<div class="container-fluid">
+      <img src="https://normanno.com/N0rm4nn0/wp-content/uploads/2021/02/joan-martines-mappa-messina-antica.png" class="img-fluid" alt="Mappa antica di Messina" title="Google"/>
+        <div class="text-block">
+          <div class="content larghezza">
+            <div class="equidistante">
+              <p>Opere nel deposito<br/>
+              del Museo Regionale di Messina</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+</header>
+
+<!--Citazione-->
+     <figure class="text-end">
+        <blockquote class="blockquote">
+             <p>Messana Nobile Siciliae Caput.</p>
+         </blockquote>
+            <figcaption class="blockquote-footer">da <cite title="Source Title">Antico motto della città, I, 101</cite>
+     </figcaption>
+  </figure>
+
+  <hr>
+<!--scopo del progetto-->
+<section class="container-fluid">
+    <div class="container">
+      <h2 class="text-justify">Scopo del progetto</h2>
+      <p class="text-justify">Il catalogo del <strong>Deposito del Museo Regionale di Messina</strong> è un progetto nato frequentando il corso di Digital Humanities e Patrimonio Culturale dell'Università di Bologna.<br>Il sito web è a disposizione di: studenti, studiosi e di chiunque voglia scoprire cosa questi luoghi dimenticati custodiscano.<br>I depositi normalmente sono spazi difficili da raggiungere e scopo finale di questo progetto è soprattutto rendere noto a tutti che opere ci siano, e facilitare soprattutto studiosi che decidano di intraprendere una ricerca.</p>
+    </div>  
+</section>
+
+   <hr>
+
+<!--Input-->
+             <div class="input-group mb-3">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon1">Artista</button>
+    <input type="text" class="form-control" placeholder="Esempio: Luciano Foti" aria-label="Example text with button addon" aria-describedby="button-addon1">
+             </div>
+
+             <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Esempio: 1247" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Inventario</button>
+             </div>
+
+             <div class="input-group mb-3">
+        <button class="btn btn-outline-secondary" type="button">Soggetto</button>
+    <input type="text" class="form-control" placeholder="Esempio: San Placido" aria-label="Example text with button addons">
+             </div>
+
+<!--le due card delle opere-->
+<div class="card-group">
+  <div class="card">
+    <img src="./img/SanPlacidoTesta.jpg" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">Luciano Foti</h5>
+      <p class="card-text">San Placido inv. 1247</p>
+      <p class="card-text"><small class="text-muted">Ultimo aggiornamento un minuto fa</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./img/SanAlbertoTesta.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Luciano Foti</h5>
+      <p class="card-text">San Alberto carmelitano inv. 1249</p>
+      <p class="card-text"><small class="text-muted">Ultimo aggiornamento un minuto fa</small></p>
+    </div>
+  </div> 
+                  
+
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<!--Bootstrap js-->
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>   
+
+</body>
+</html>
